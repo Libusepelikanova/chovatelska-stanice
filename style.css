@@ -1,5 +1,24 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
 
 .nav-link:hover {
     color: #d4af37 !important;
   }
+
+@media (max-width: 1200px) {
+  .lh-base p {
+    font-size: 80%;
+  }
+}
+@media (max-width: 993px) {
+  .d-flex.flex-wrap-nowwrap {
+    flex-direction: column;
+  }
+  p {
+    font-size: 90%;
+  }
+
+}
+
   

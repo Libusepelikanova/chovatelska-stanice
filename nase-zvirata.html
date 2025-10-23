@@ -7,9 +7,10 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css">
-  
+
 </head>
 
 <body style="background-color: #fff8dc">
@@ -26,7 +27,8 @@
             <a class="nav-link text-white-50" href="#">Domů</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-medium" style="color: #fff8dc;" aria-current="page" href="nase-zvirata.html">Naše zvířata</a>
+            <a class="nav-link active fw-medium" style="color: #fff8dc;" aria-current="page"
+              href="nase-zvirata.html">Naše zvířata</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white-50" href="#">Štěňata</a>
@@ -41,21 +43,64 @@
       </div>
     </div>
   </nav>
+  <p class="fw-bold fs-1 text-center p-5 pb-0">O nás</p>
+  <div class="container px-lg-5 pt-5 d-flex flex-wrap-nowwrap">
+    <div class="row g-4 col-lg-6">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="dob4.jpg" class="d-block w-100 rounded-1">
+          </div>
+          <div class="carousel-item">
+            <img src="dob2.jpg" class="d-block w-100 rounded-1">
+          </div>
+          <div class="carousel-item">
+            <img src="dob1.avif" class="d-block w-100 rounded-1">
+          </div>
+          <div class="carousel-item">
+            <img src="dob1.avif" class="d-block w-100 rounded-1">
+          </div>
+          <div class="carousel-item">
+            <img src="dob1.avif" class="d-block w-100 rounded-1">
+          </div>
+          <div class="carousel-item">
+            <img src="dob1.avif" class="d-block w-100 rounded-1">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="lh-base me-5 ms-5 fs-3 d-flex align-items-center">
+      <p class="text">
+        V naší chovatelské stanici dbáme na zodpovědný výběr každého jedince. Psi jsou vybíráni s ohledem na zdraví,
+        vyrovnanou povahu a typický vzhled plemena. Jen tak můžeme zajistit, že naše odchovy budou silné, přátelské a
+        připravené stát se oddanými společníky.
+      </p>
+    </div>
+  </div>
   <div class="container">
     <p class="fw-bold fs-1 text-center p-5">Naše zvířata</p>
     <div class="row row-cols-1 row-cols-lg-2 g-5 p-5 pt-0">
       <div class="col">
-        <div class="card h-100 shadow bg-body-tertiary rounded" >
+        <div class="card h-100 shadow bg-body-tertiary rounded">
           <img src="dob1.avif" class="card-img-top border border-dark border-5">
           <div class="card-body bg-dark ">
             <h5 class="card-title fs-3" style="color: #fff8dc">Kimberly</h5>
             <p class="card-text text-light"><b>Datum narození:</b> 27. listopadu 2021</p>
-            <p class="card-text text-light"><b>Povaha:</b> Kim je hravá a učenlivá fenka, která je vždy ochotná spolupracovat.</p>
+            <p class="card-text text-light"><b>Povaha:</b> Kim je hravá a učenlivá fenka, která je vždy ochotná
+              spolupracovat.</p>
             <p class="card-text text-light"><b>Zdravotní testy:</b> OK (06/2023)</p>
             <p class="card-text text-light"><b>Úspěchy:</b> Získala titul CAJC na krajské výstavě 2023.</p>
           </div>
           <div class="bg-dark ps-3 pb-2">
-            <a style= "background-color: #fff8dc" class="btn" href="dob1.avif" role="button">
+            <a style="background-color: #fff8dc" class="btn" href="dob1.avif" role="button">
               <i class="bi bi-download"></i> Rodokmen</a>
           </div>
           <div class="card-footer bg-black border border-dark border-5">
@@ -69,12 +114,13 @@
           <div class="card-body bg-dark">
             <h5 class="card-title fs-3" style="color: #fff8dc">Dexter</h5>
             <p class="card-text text-light"><b>Datum narození:</b> 5. ledna 2020</p>
-            <p class="card-text text-light"><b>Povaha:</b> Dexter je klidný a sebevědomý pes, který věrně střeží svou rodinu.</p>
+            <p class="card-text text-light"><b>Povaha:</b> Dexter je klidný a sebevědomý pes, který věrně střeží svou
+              rodinu.</p>
             <p class="card-text text-light"><b>Zdravotní testy:</b> OK (02/2024)</p>
             <p class="card-text text-light"><b>Úspěchy:</b> Vítěz třídy na klubové výstavě 2024.</p>
           </div>
           <div class="bg-dark ps-3 pb-2">
-            <a style= "background-color: #fff8dc" class="btn" href="dob2.jpg" role="button">
+            <a style="background-color: #fff8dc" class="btn" href="dob2.jpg" role="button">
               <i class="bi bi-download"></i> Rodokmen</a>
           </div>
           <div class="card-footer bg-black border border-dark border-5">
@@ -90,12 +136,13 @@
           <div class="card-body bg-dark">
             <h5 class="card-title fs-3" style="color: #fff8dc">Dante</h5>
             <p class="card-text text-light"><b>Datum narození:</b> 10. října 2019</p>
-            <p class="card-text text-light"><b>Povaha:</b> Dante je milý a inteligentní pes, rád se učí novým povelům a trikům.</p>
+            <p class="card-text text-light"><b>Povaha:</b> Dante je milý a inteligentní pes, rád se učí novým povelům a
+              trikům.</p>
             <p class="card-text text-light"><b>Zdravotní testy:</b> OK (06/2024)</p>
             <p class="card-text text-light"><b>Úspěchy:</b> Držitel titulu CACIB za výborný exteriér.</p>
           </div>
           <div class="bg-dark ps-3 pb-2">
-            <a style= "background-color: #fff8dc" class="btn" href="dob3.jpg" role="button">
+            <a style="background-color: #fff8dc" class="btn" href="dob3.jpg" role="button">
               <i class="bi bi-download"></i> Rodokmen</a>
           </div>
           <div class="card-footer bg-black border border-dark border-5">
@@ -109,12 +156,13 @@
           <div class="card-body bg-dark">
             <h5 class="card-title fs-3" style="color: #fff8dc">Luna</h5>
             <p class="card-text text-light"><b>Datum narození:</b> 30. dubna 2020</p>
-            <p class="card-text text-light"><b>Povaha:</b> Luna je kontaktní a hravá, miluje pohyb i čas strávený s lidmi.</p>
+            <p class="card-text text-light"><b>Povaha:</b> Luna je kontaktní a hravá, miluje pohyb i čas strávený s
+              lidmi.</p>
             <p class="card-text text-light"><b>Zdravotní testy:</b> OK (01/2023)</p>
             <p class="card-text text-light"><b>Úspěchy:</b> Vítězka třídy pracovní na národní výstavě 2024.</p>
           </div>
           <div class="bg-dark ps-3 pb-2">
-            <a style= "background-color: #fff8dc" class="btn" href="dob4.jpg" role="button">
+            <a style="background-color: #fff8dc" class="btn" href="dob4.jpg" role="button">
               <i class="bi bi-download"></i> Rodokmen</a>
           </div>
           <div class="card-footer bg-black border border-dark border-5">
@@ -124,6 +172,7 @@
       </div>
     </div>
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
