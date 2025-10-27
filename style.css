@@ -3,33 +3,36 @@ body {
 }
 
 .nav-link:hover {
-    color: #d4af37 !important;
-  }
+  color: #d4af37 !important;
+}
 
 @media (max-width: 1200px) {
   .lh-base p {
     font-size: 22px;
   }
+
   p {
     font-size: 16px;
   }
 }
+
 @media (max-width: 993px) {
   .d-flex.flex-wrap-nowwrap {
     flex-direction: column;
   }
+
   p {
     font-size: 15px;
   }
+
   .lh-base p {
     padding-top: 15px;
     font-size: 17px;
   }
+
   #carouselExample {
     max-width: 88%;
     margin: 0 auto;
   }
 
 }
-
-  
