@@ -8,7 +8,10 @@ body {
 
 @media (max-width: 1200px) {
   .lh-base p {
-    font-size: 80%;
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
   }
 }
 @media (max-width: 993px) {
@@ -16,7 +19,15 @@ body {
     flex-direction: column;
   }
   p {
-    font-size: 90%;
+    font-size: 15px;
+  }
+  .lh-base p {
+    padding-top: 15px;
+    font-size: 17px;
+  }
+  #carouselExample {
+    max-width: 88%;
+    margin: 0 auto;
   }
 
 }
