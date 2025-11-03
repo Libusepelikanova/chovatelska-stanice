@@ -1,9 +1,22 @@
 body {
   font-family: 'Nunito', sans-serif;
+  background-color: #fff8dc;
 }
 
 .nav-link:hover {
   color: #d4af37 !important;
+}
+.navbar-brand {
+  color: #fff8dc;
+}
+footer {
+  color: #fff8dc;
+}
+.card-title {
+  color: #fff8dc;
+}
+.btn {
+  background-color: #fff8dc !important; 
 }
 
 @media (max-width: 1200px) {
