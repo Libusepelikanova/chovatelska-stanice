@@ -18,6 +18,9 @@ footer {
 .btn {
   background-color: #fff8dc !important; 
 }
+.accordion-button:focus {
+  box-shadow: none;
+}
 
 @media (max-width: 1200px) {
   .lh-base p {
