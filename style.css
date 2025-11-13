@@ -50,5 +50,23 @@ footer {
     max-width: 88%;
     margin: 0 auto;
   }
+  .card-title {
+    font-size: 25px;
+  }
+  .card-text {
+    font-size: 19px;
+  }
+  .card-footer {
+    font-size: 19px;
+  }
+  .btn {
+    font-size: 19px;
+  }
+  .accordion-button {
+    font-size: 25px;
+  }
+  .accordion-collapse {
+    font-size: 19px;
+  }
 
 }
