@@ -67,6 +67,10 @@ footer {
   }
   .accordion-collapse {
     font-size: 19px;
+  } 
+  .list-group-item {
+    font-size: 19px;
   }
+ 
 
 }
