@@ -21,6 +21,9 @@ footer {
 .accordion-button:focus {
   box-shadow: none;
 }
+.accordion-button::after {
+  filter: invert(100%);
+}
 
 @media (max-width: 1200px) {
   .lh-base p {
@@ -71,6 +74,4 @@ footer {
   .list-group-item {
     font-size: 19px;
   }
- 
-
 }
