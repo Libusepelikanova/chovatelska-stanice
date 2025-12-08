@@ -24,7 +24,10 @@ footer {
 .accordion-button::after {
   filter: invert(100%);
 }
-
+.placeholder-light::placeholder {
+  color: #fff8dc; 
+  opacity: 0.5;
+}
 @media (max-width: 1200px) {
   .lh-base p {
     font-size: 22px;
