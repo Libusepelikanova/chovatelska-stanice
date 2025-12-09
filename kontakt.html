@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="cs">
 
 <head>
     <meta charset="utf-8">
@@ -94,7 +94,7 @@
     </div>
     <p class="fw-bold fs-1 text-center p-5 pb-0">Formulář pro zájemce</p>
     <p class="text-center p-2">Po odeslání formuláře se vás budeme snažit kontaktovat co nejdříve.</p>
-    <div class="container pb-5">
+    <div class="container">
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="validationCustom01" class="form-label fs-5 fw-bold">Jméno</label>
@@ -119,7 +119,7 @@
             <div class="col-md-6">
                 <label for="options" class="form-label fs-5 fw-bold">Preference</label>
                 <select class="form-select bg-dark" style="color: #fff8dc;" aria-label="Default select example">
-                    <option selected>O co máte zájem?</option>
+                    <option selected>O co máte zájem? (vyberte z nabídky)</option>
                     <option value="1">Mláďata, která jsou na prodej</option>
                     <option value="2">Rezervovat z plánovaných vrhů</option>
                     <option value="3">Konzultace ohledně chovu</option>
@@ -133,12 +133,29 @@
                         štěňat.
                     </label>
                 </div>
-            </div>    
-            
+            </div>
+
             <div class="col-12">
                 <button type="submit" class="btn btn-dark text-dark">Odeslat</button>
             </div>
         </form>
+    </div>
+    <p class="fw-bold fs-1 text-center p-5 pb-0">Dokumenty ke stažení</p>
+    <div class="container pb-5">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <a class="btn btn-dark text-dark btn-lg fs-6 fw-bold w-100" href="images/nic.jpg" role="button"><i
+                        class="bi bi-download"></i> Kupní smlouva</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-dark text-dark btn-lg fs-6 fw-bold w-100" href="images/nic.jpg" role="button"><i
+                        class="bi bi-download"></i> Chovatelský řád</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-dark text-dark btn-lg fs-6 fw-bold w-100" href="images/nic.jpg" role="button"><i
+                        class="bi bi-download"></i> Checklist výbavy</a>
+            </div>
+        </div>
     </div>
 
     <footer class="bg-dark text-center fs-6 py-3">
