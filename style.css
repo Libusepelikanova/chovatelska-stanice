@@ -6,13 +6,11 @@ body {
 .nav-link:hover {
   color: #d4af37 !important;
 }
-.navbar-brand {
-  color: #fff8dc;
-}
-footer {
-  color: #fff8dc;
-}
-.card-title {
+.navbar-brand, 
+footer, 
+.card-title,
+.textdomu,
+.textikdomu {
   color: #fff8dc;
 }
 .btn {
@@ -28,6 +26,23 @@ footer {
   color: #fff8dc; 
   opacity: 0.5;
 }
+.hero {
+  background-image: url(images/ddd.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: black;
+}
+.textdomu{
+  text-shadow: black;
+  font-size: 50px;
+  font-weight: 700;
+}
+.textikdomu {
+  text-shadow: black;
+  font-size: 18px;
+}
+
 @media (max-width: 1200px) {
   .lh-base p {
     font-size: 22px;
@@ -36,9 +51,18 @@ footer {
   p {
     font-size: 16px;
   }
+  .onas p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 993px) {
+  .hero {
+    height: 400px;
+  }
+  .textdomu{
+    font-size: 30px;
+  }
   .d-flex.flex-wrap-nowwrap {
     flex-direction: column;
   }
@@ -76,5 +100,13 @@ footer {
   } 
   .list-group-item {
     font-size: 19px;
+  }
+}
+@media (max-width: 750px) {
+  .hero {
+    height: 300px;
+  } 
+  .textdomu{
+    font-size: 20px;
   }
 }
