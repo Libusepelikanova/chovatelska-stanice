@@ -42,7 +42,10 @@ footer,
   text-shadow: black;
   font-size: 18px;
 }
-
+.foto img {
+  height: 120px;
+  width: 120px;
+}
 @media (max-width: 1200px) {
   .lh-base p {
     font-size: 22px;
@@ -102,11 +105,19 @@ footer,
     font-size: 19px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .hero {
     height: 300px;
   } 
   .textdomu{
     font-size: 20px;
+  }
+  .stene {
+    height: 35vh;    
+  }
+  .stenefoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
